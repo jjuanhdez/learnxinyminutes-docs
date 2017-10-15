@@ -32,19 +32,19 @@ FOR index = 0 TO 10 STEP 2
 NEXT
 J = 0
 REPEAT
- J++
+  J++
 UNTIL J = 10
 WHILE J > 0
- J--
+  J--
 WEND
 
 REM Estructura Select Case
 SELECT CASE "Cool"
- CASE "null", 1, 2, 3, 4, 5, 6, 7, 8, "Cool", "blah"
- CASE "No Cool"
-   PRINT "Fallo epico"
- CASE ELSE
-   PRINT "Fallo"
+  CASE "null", 1, 2, 3, 4, 5, 6, 7, 8, "Cool", "blah"
+  CASE "No Cool"
+    PRINT "Fallo epico"
+  CASE ELSE
+    PRINT "Fallo"
 END SELECT
 
 REM Captura de errores con TRY/CATCH
