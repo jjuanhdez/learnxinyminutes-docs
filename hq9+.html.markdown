@@ -16,11 +16,11 @@ Q: print the program's source code (a Quine)
 Any other character is ignored.
 
 Ok. Let's write some program:
-  HQ9
+  HQ
 
 Result:
   Hello world!
-  HQ9
+  HQ
 
 HQ9+ is very simple, but allows you to do some things that are very difficult
 in other languages. For example, here is a program that creates three copies of
