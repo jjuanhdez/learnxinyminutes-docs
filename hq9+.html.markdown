@@ -3,37 +3,43 @@ language: HQ9+
 filename: hq9+.html
 contributors:
     - ["Alexey Nazaroff", "https://github.com/rogaven"]
+translators:
+    - ["J. Juan Hernandez", "http://jjuanhdez.es"]
+lang: es-es
 ---
 
-HQ9+ is a joke programming language created by Cliff Biffle. It has only four commands and it isn't Turing-complete.
+HQ9+ es un lenguaje de programación esotérico creado por Cliff Biffle. 
+Tiene solo cuatro comandos y no es Turing-completo.
 
 ```
-There is only 4 commands, represented by next characters
-H: print "Hello, world!"
-Q: print the program's source code (a Quine)
-9: print the lyrics to "99 Bottles of Beer"
-+: add one to the accumulator (the value of the accumulator cannot be accessed)
-Any other character is ignored.
+Solo hay 4 comandos, representados por los siguientes caracteres.
+H: imprimir "Hello, world!"
+Q: imprimir el código fuente del programa (un Quine)
+9: imprime la letra de la canción "99 Bottles of Beer"
++: incrementar en uno el acumulador (no se puede acceder al valor del
+ acumulador)
+Cualquier otro caracter es ignorado.
 
-Ok. Let's write some program:
-  HQ9
+De acuerdo. Escribamos algún programa::
+  HQ
 
-Result:
+Resultado:
   Hello world!
-  HQ9
+  HQ
 
-HQ9+ is very simple, but allows you to do some things that are very difficult
-in other languages. For example, here is a program that creates three copies of
-itself on the screen:
+HQ9+ es muy simple, pero permite hacer algunas cosas que son muy difíciles en 
+otros lenguajes. Por ejemplo, aquí hay un programa que crea tres copias de sí
+mismo en la pantalla:
   QQQ
 
-This produces:
+Esto produce:
   QQQ
   QQQ
   QQQ
 ```
 
-And that's all. There are a lot of interpreters for HQ9+. Below you can find one of them
+Y eso es todo. Hay muchos intérpretes para HQ9+. 
+A continuación puedes encontrar uno de ellos:
 
-+ [One of online interpreters](https://almnet.de/esolang/hq9plus.php)
-+ [HQ9+ official website](http://cliffle.com/esoterica/hq9plus.html)
++ [Uno de los intérpretes online](https://almnet.de/esolang/hq9plus.php)
++ [Sitio web oficial de HQ9+](http://cliffle.com/esoterica/hq9plus.html)
